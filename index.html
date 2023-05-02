@@ -4,17 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <script defer src="main.js"></script>
     <title>Click game</title>
 </head>
 <body>
     <header>
-        <h1>Welcome to your new favourite game</h1>
+        <h1>CLICK GAME</h1>
+        <h2>Welcome to your new favourite game</h2>
     </header>
     <main>
-        
+    <section class="main-page">
+        <div class="main-box-left">
+            <p>With this game you'll improve your reaction time.</p>
+                <h3 class="user-name">Choose a user name</h2>
+                <label for="name" id="userName"></label>
+                <input id="inputName" class="input-name" type="text" placeholder="New Player"/>
+            <button class="btn-play" id="btnPlay">Play now</button>
+        </div>
+            <div class="winners" id="scoreTop">
+                <p>Top winner list</p>
+            </div>
+    </section>
     </main>
     <footer>
-        
+
     </footer>
 
 </body>
